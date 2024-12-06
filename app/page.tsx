@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="w-full h-screen p-4 flex flex-col justify-between items-center">
-      <p className="font-bold self-start text-xl md:text-2xl">m1seria</p>
+      <p className="font-bold self-start text-xl md:text-2xl cursor-default">m1seria</p>
       <div className="flex-grow w-full flex flex-col justify-center items-center">
         <Image 
           src="/rojo.jpeg"
@@ -21,8 +21,8 @@ export default function Home() {
       </div>
       <div className="flex gap-x-4 justify-end fixed bottom-0 w-full p-4">
         <p className="font-bold cursor-default text-sm md:text-base">contacto</p>
-        <Link href="mailto:m1seriaw@gmail.com" className="text-sm md:text-base">mail</Link>
-        <Link href="https://www.instagram.com/m1seria" className="text-sm md:text-base">instagram</Link>
+        <Link href="mailto:m1seriaw@gmail.com" className="text-sm md:text-base hover:underline">mail</Link>
+        <Link href="https://www.instagram.com/m1seria" className="text-sm md:text-base hover:underline">instagram</Link>
       </div>
     </div>
   );
