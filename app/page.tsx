@@ -14,7 +14,7 @@ export default function Home() {
           className="object-cover"
         />
         <p className="font-bold mt-2 text-lg md:text-xl">M2SERIA</p>
-        <p className="text-md md:text-lg">$ xxx</p>
+        <p className="text-md md:text-lg">$ 19.999</p>
         <p className="border border-black font-[family-name:var(--einaBold)] w-[300px] h-fit py-2 flex items-center justify-center text-center mt-2 cursor-pointer hover:bg-black hover:border-black hover:text-white">
           comprar
         </p>
