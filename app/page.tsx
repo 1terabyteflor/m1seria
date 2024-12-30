@@ -4,12 +4,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div 
-      className="w-full h-screen p-4 flex flex-col justify-between items-center" 
+      className="w-full h-screen p-4 " 
       style={{ backgroundImage: "url('/IMG_6589.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
+
       <p className="font-bold self-start text-xl md:text-2xl cursor-default">m1seria</p>
-      <div className="bg-white p-4 rounded-lg shadow-lg">
-        <div className="flex-grow w-full flex flex-col justify-center items-center">
+
+      <div className=" p-4  self-center lg:mt-8 flex flex-col items-center justify-center">
+        <div className="bg-white shadow-lg p-4 flex-grow w-fit flex flex-col justify-center items-center">
           <Image 
             src="/rojo.jpeg"
             alt="m2seria"
@@ -19,6 +21,11 @@ export default function Home() {
           />
           <p className="font-bold mt-2 text-lg md:text-xl">M2SERIA</p>
           <p className="text-md md:text-lg">$ 22.222</p>
+          <p className="text-xs text-center">
+libro de 15x15cm <br></br>
+3OO páginas de am0r <br></br>
+retiros x caba <br></br>
+envíos a todo el país</p>
           <Link href="https://mpago.la/2y6CtbD" className="border border-black font-[family-name:var(--einaBold)] w-[300px] h-fit py-2 flex items-center justify-center text-center mt-2 cursor-pointer hover:bg-black hover:border-black hover:text-white">
             comprar
           </Link>
